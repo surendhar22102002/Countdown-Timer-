@@ -21,4 +21,4 @@ function UpdateTime() {
     seconds.innerHTML = s < 10 ? "0" + s : s;
 }
 
-setInterval(UpdateTime, 500);
+setInterval(UpdateTime, 1000);
